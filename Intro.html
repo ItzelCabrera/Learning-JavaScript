@@ -1,0 +1,53 @@
+<script>
+	//console.log("Hello from JavaScript");
+
+/*
+Data types:
+undefined, null,boolean,string,symbol(a ummutable),number and object
+
+Varibale: to manipulate data --> label to point to data
+
+Declare variables:
+
+1- let <variable´s name> = <something> (SCOPE)
+2.- var <variable´s name> = <something> (GLOBAL)
+3.- const <name> = <something> (NEVER CHANGE)
+
+Declaration and assignment 
+*/
+
+var a;
+var b = 7;
+
+a = 8;
+b = a;
+b++;
+a+=10;
+
+b*=3;
+a/=2;
+
+console.log(b);
+console.log(a);
+
+var myFirstName = 'Cabrera';
+console.log(myFirstName);
+
+var str = 'I am a \'double string\', it is fun heyyy'; //espace characters "\"
+var str2 = "FirstLine\n\t\\SecondLine\nThirdLine";
+console.log(str);
+console.log(str2);
+
+str += " heyyy " + myFirstName;
+str += myFirstName;
+console.log(str.length);
+
+var firstLetter = myFirstName[3];
+console.log(firstLetter);
+
+//Strings are immutable
+var myStr = "Jello world!";
+myStr[0] = "H";
+console.log(myStr);
+
+</script>
