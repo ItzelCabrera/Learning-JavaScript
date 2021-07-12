@@ -1,0 +1,21 @@
+Document Object Model
+
+*No es JavaScript; se utiliza con JavaScript ya que es una API
+*Is a W3C (World Wide Web Consorcium) standard
+*Permite que los programas y scripts accedan dinámicamente al documento (estructura,contenido y estilo); da dinámica.
+
+*Partes:
+	-Core DOM:modelo estándar para todos los documentos
+	-XML DOM: modelo estándar para los documentos XML
+	-HTML DOM:
+		.modelo estándar para los documentos HTML
+		.standard for how to get, change, add or delete HTML elements
+*Nodos: cada parte del arbol es un domo; hay varios tipos de nodos=> Element node (1); Text node (3); Comment node (8)
+
+*DOM Pogramming Interface
+	-todos los elementos del html se consideran objetos
+	-Se consideran los atributos y métodos de cada objeto (es decir, de cada elemento del html)
+
+*En HTML
+	Existe la etiqueta de script, en esta va la direccion del script. Debe ir hasta el último, antes
+	del final de etiqueta de body; esto con el fin, de que todos los elementos carguen.

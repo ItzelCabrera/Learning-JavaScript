@@ -1,0 +1,18 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallery_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+    cursor:help;
+}
+
+.red{
+    background-color: rebeccapurple;
+}
